@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dancing+Script&family=Karla:wght@200&family=Lobster&family=Lora:ital@1&family=Playfair+Display:ital,wght@0,400;1,400;1,700&family=Prosto+One&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,11 +20,13 @@ body {
 }
 
 .info {
+    font-family: 'Lora', serif;
     display: flex;
     padding-left: 50px;
 }
 
 .info2 {
+    font-family: 'Lora', serif;
     display: flex;
     padding-right: 50px;
 }
@@ -44,6 +48,7 @@ body {
 }
 
 strong {
+    font-family: 'Secular One', sans-serif;
     padding: 10px;
 }
 
@@ -52,7 +57,7 @@ strong {
 }
 
 .img {
-    padding-left: 200px;
+    padding-left: 160px;
 }
 
 .slide {
@@ -70,6 +75,7 @@ strong {
     border: none;
     float: right;
     margin-top: 155px;
+    font-family: 'Cardo', serif;
 }
 
 button {
@@ -451,37 +457,46 @@ button:hover {
 .feature:hover {
     border: 5px solid rgb(203, 238, 5);
 }
-.decimg:hover{
+
+.decimg:hover {
     height: 210px;
     border: 5px solid rgb(203, 238, 5);
 }
-.promo:hover{
+
+.promo:hover {
     color: white;
     background-color: black;
 }
-.form:hover{
+
+.form:hover {
     border: 5px solid rgb(203, 238, 5);
 
 }
-.test:hover{
+
+.test:hover {
     border: 5px solid rgb(203, 238, 5);
     background-color: white;
 }
-.blogandinsights:hover{
+
+.blogandinsights:hover {
     background-color: rgb(77, 74, 74);
     color: white;
 }
-.model img:hover{
+
+.model img:hover {
     border: 5px solid rgb(203, 238, 5);
 
 }
-td:hover{
+
+td:hover {
     color: blueviolet;
 }
-.foot4 div:hover{
+
+.foot4 div:hover {
     color: blueviolet;
 }
-.foot2 div:hover{
+
+.foot2 div:hover {
     color: blueviolet;
 
 }
