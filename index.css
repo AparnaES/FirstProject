@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dancing+Script&family=Karla:wght@200&family=Lobster&family=Lora:ital@1&family=Playfair+Display:ital,wght@0,400;1,400;1,700&family=Prosto+One&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Charm&family=Cinzel:wght@500&family=Dancing+Script&family=Francois+One&family=Fraunces:ital,opsz,wght@1,9..144,300;1,9..144,500&family=IBM+Plex+Serif:wght@300&family=Libre+Baskerville&family=Lobster&family=Lora:ital@1&family=Playball&family=Playfair+Display:ital,wght@0,400;1,400;1,700&family=Prosto+One&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&family=Viaoda+Libre&family=Yantramanav:wght@300&family=Yeseva+One&display=swap');
 
 * {
     margin: 0;
@@ -6,8 +6,17 @@
 }
 
 body {
-    background-color: rgb(211, 175, 132);
+    background-color: rgb(121, 119, 116);
     /* height: 7000px; */
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+h2{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-family: 'Yantramanav', sans-serif;
 }
 
 .header {
@@ -20,13 +29,11 @@ body {
 }
 
 .info {
-    font-family: 'Lora', serif;
     display: flex;
     padding-left: 50px;
 }
 
 .info2 {
-    font-family: 'Lora', serif;
     display: flex;
     padding-right: 50px;
 }
@@ -48,7 +55,7 @@ body {
 }
 
 strong {
-    font-family: 'Secular One', sans-serif;
+
     padding: 10px;
 }
 
@@ -75,7 +82,7 @@ strong {
     border: none;
     float: right;
     margin-top: 155px;
-    font-family: 'Cardo', serif;
+
 }
 
 button {
@@ -251,25 +258,25 @@ textarea {
     padding: 10px;
 }
 
-.featurefour {
-    margin-top: 50px;
-    height: 200px;
-    /* width: 100%; */
-    /* background-color: rgb(223, 210, 210); */
-    display: flex;
+/* .featurefour { */
+/* margin-top: 50px;
+    height: 200px; */
+/* width: 100%; */
+/* background-color: rgb(223, 210, 210); */
+/* display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 
-.feature {
+/* .feature {
     height: 170px;
     width: 200px;
     border: none;
     text-align: center;
     background-color: lightgray;
 
-}
+} */
 
 .b1 {
     height: 250px;
@@ -369,6 +376,7 @@ textarea {
 }
 
 .foot2 {
+    font-family: 'Hanken Grotesk', sans-serif;
     height: 390px;
     width: 250px;
     padding: 20px;
@@ -385,12 +393,14 @@ textarea {
 }
 
 .table {
+    font-family: 'Hanken Grotesk', sans-serif;
     margin-top: 20px;
     width: 280px;
     height: 230px;
 }
 
 .foot4 {
+    font-family: 'Hanken Grotesk', sans-serif;
     padding: 20px;
     width: 250px;
 }
